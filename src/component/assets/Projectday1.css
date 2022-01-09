@@ -3,4 +3,7 @@
     width: 100%;
     justify-content: space-around;
     margin-top: 100px;
+    background-color: aqua;
+    color: blanchedalmond;
+    list-style: none;
 }
