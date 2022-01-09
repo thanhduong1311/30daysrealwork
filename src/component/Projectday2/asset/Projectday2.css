@@ -17,8 +17,6 @@
     height: 400px;
     margin: 0 30px;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -30,6 +28,9 @@
     border-radius: 50%;
     border: 3px solid var(--pink-color);
     overflow: hidden;
+    margin:0 auto ;
+    transform: translateY(30px);
+    transition: linear 0.08s;
 }
 .card-container__avatar img{
     width:100%;
@@ -43,7 +44,7 @@
     height: 100%;
    border-radius: unset;
    border: none;
-   object-fit: unset;
+   transform: unset;
 }
 
 
@@ -53,11 +54,15 @@
     font-size: 24px;
     margin-top: 10px;
     font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
 }
 .card-container__exp {
     font-size: 16px;
     color: var(--pink-color);
     font-weight: 500;
+    text-align: center;
+
 }
 .card-container__contact{
     width: 100%;
@@ -81,6 +86,7 @@
     color: var(--pink-color);
 }
 .card-container__contact-btn {
+    display: block;
     text-align: center;
     outline: none;
     border: 1px solid var(--pink-color);
@@ -91,6 +97,7 @@
     padding: 10px 20px;
     font-weight: 500;
     transition: linear 0.2s;
+    margin: 0 auto;
 }
 .card-container__contact-btn:hover {
     background-color: var(--pink-color);
