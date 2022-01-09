@@ -1,15 +1,160 @@
-.test ul {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    margin-top: 100px;
-<<<<<<< HEAD
-    background-color: aqua;
-    color: blanchedalmond;
-    list-style: none;
-=======
-    list-style: none;
-    color: rgb(235, 6, 6);
-    font-size: 28px;
->>>>>>> 8d82a1f7542a6497ba718bbd632d2c0cad444127
+:root {
+    --primary-color: #4daf54;
 }
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #4daf54, #3d8888);
+    height: 100vh;
+}
+
+.card {
+    margin: 120px auto;
+    width: 320px;
+    height: 400px;
+    background: #272d40;
+    padding: 40px 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.card .card-icon {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -28px;
+}
+
+.card-img {
+    width: 90%;
+    transition: 0.5s linear;
+}
+
+.card  .img-shoes1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s linear;
+}
+
+
+.card-price {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s linear;
+}
+
+.card .card-size, .card-color {
+    display: flex;
+    align-items: center;
+}
+.card-size, .card-color {
+    margin-bottom: 15px;
+}
+.card .card-size h3, .card-color h3 {
+    color: #fff;
+    margin-right: 12px;
+}
+.card .card-size span {
+    color: rgb(8, 8, 8);
+    background-color:#dadada ;
+    margin: 0px 5px;
+    padding: 2px 10px;
+    border-radius: 4px;
+    
+}
+
+
+
+.card-color .red{
+    background-color: aqua;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0px 5px;
+}
+
+.card-color .green{
+    background-color: cadetblue;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+margin: 0px 5px;
+}
+
+.card-color .blue{
+    background-color: chocolate;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+margin: 0px 5px;
+}
+
+.card-action .buy-btn, .add-btn{
+    margin-right: 7px;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+.card:hover .card-img {
+    transform: translateX(-24px) translateY(-90px) rotate(-20deg);
+    
+}
+
+.card:hover .card-title {
+    transform: translate(-30px ,-72px);
+}
+.card:hover .card-price {
+    transform: translate(-75px ,-72px);
+}
+
+.card-size {
+    margin-top: 160px;
+  
+}
+
+.card-size, .card-color, .card-action {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.card:hover .card-size, 
+.card:hover .card-color,
+.card:hover .card-action {
+    visibility: visible;
+    opacity: 100;
+    transition-delay: 0.4s;
+}
+
+.card:hover .card-size {
+    margin-top: -24px;
+}
+
+
+
+
+
