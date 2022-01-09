@@ -1,7 +1,7 @@
-import projectday1 from "./component/projectday1";
+import Projectday1 from "./component/Projectday1";
 
 function App() {
-  return <projectday1/>
+  return <Projectday1 />
   
 }
 
