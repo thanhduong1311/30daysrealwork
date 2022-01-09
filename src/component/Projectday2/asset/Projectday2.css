@@ -1,0 +1,98 @@
+:root{
+    --pink-color:#f2726a;
+
+}
+
+.Projectday2 {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#00853e ,#50c878);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-container{
+    background-color: #242628;
+    width: 300px;
+    height: 400px;
+    margin: 0 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.card-container__avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid var(--pink-color);
+    overflow: hidden;
+}
+.card-container__avatar img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    transition: linear 0.2s;
+}
+
+.card-container__avatar:hover {
+    width: 100%;
+    height: 100%;
+   border-radius: unset;
+   border: none;
+   object-fit: unset;
+}
+
+
+
+.card-container__name {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.card-container__exp {
+    font-size: 16px;
+    color: var(--pink-color);
+    font-weight: 500;
+}
+.card-container__contact{
+    width: 100%;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-container__contact a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 20px;
+}
+.card-container__contact i{
+    transition: linear 0.2s;
+}
+.card-container__contact i:hover{
+    cursor: pointer;
+    color: var(--pink-color);
+}
+.card-container__contact-btn {
+    text-align: center;
+    outline: none;
+    border: 1px solid var(--pink-color);
+    color: #fff;
+    font-size: 14px;
+    border-radius: 10px;
+    background: transparent;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: linear 0.2s;
+}
+.card-container__contact-btn:hover {
+    background-color: var(--pink-color);
+    cursor: pointer;
+}

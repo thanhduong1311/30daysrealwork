@@ -12,7 +12,7 @@ html {
     box-sizing: border-box;
 }
 
-body{
+.main{
     background: linear-gradient(to right, #4daf54, #3d8888);
     height: 100vh;
 }
