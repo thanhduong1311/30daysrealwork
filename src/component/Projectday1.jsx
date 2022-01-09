@@ -8,8 +8,8 @@ export default function Projectday1() {
     <div className="main">
     <div class="card">
             <div class="card-icon">
-                <i class="ti-heart"></i>
-                <i class="ti-shopping-cart"></i>
+            <i class="far fa-heart"></i>
+            <i class="fas fa-shopping-cart"></i>
             </div>
             <div class="card-img">
                 <img class="img-shoes1" src="https://www.nodemy.vn/projects/html-css-js/product-card/Nike%20Zoom%20KD%2012.png" alt=""/>
