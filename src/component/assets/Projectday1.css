@@ -3,7 +3,13 @@
     width: 100%;
     justify-content: space-around;
     margin-top: 100px;
+<<<<<<< HEAD
     background-color: aqua;
     color: blanchedalmond;
     list-style: none;
+=======
+    list-style: none;
+    color: rgb(235, 6, 6);
+    font-size: 28px;
+>>>>>>> 8d82a1f7542a6497ba718bbd632d2c0cad444127
 }
