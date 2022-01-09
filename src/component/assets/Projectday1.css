@@ -3,4 +3,7 @@
     width: 100%;
     justify-content: space-around;
     margin-top: 100px;
+    list-style: none;
+    color: rgb(235, 6, 6);
+    font-size: 28px;
 }
