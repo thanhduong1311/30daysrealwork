@@ -1,0 +1,89 @@
+.Projectday3 {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #4458d0, #c850c0,#ffcc70);
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.modal__open-btn {
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+.modal{
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color:rgba(0, 0, 0, 0.4) ;
+   display: none;
+}
+.modal.open {
+    display: flex;
+}
+.modal__container{
+    width: 450px;
+    height: 200px;
+
+}
+.modal__container-header {
+    padding: 15px;
+    background-color: #e26e70;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.modal__container-header-name{
+    font-size: 18px;
+    color: #fff;
+}
+.close-icon{
+    float: right;
+    color: #fff;
+    cursor: pointer;
+}
+.close-icon:hover {
+    opacity: 0.9;
+}
+.modal__container-body {
+    padding: 15px;
+    background-color: #fff;
+    
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.modal__container-body-content-header {
+    color: #e26e70;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+.modal__container-body-content-body {
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+.modal__container-body-footer {
+padding: 15px 0 0 15px;
+text-align: right;
+}
+.modal__container-body-footer-btn {
+    border: none;
+    background-color:#e26e70 ;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.modal__container-body-footer-btn:hover {
+    opacity: 0.9;
+}
